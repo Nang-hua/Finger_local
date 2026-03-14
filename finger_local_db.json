@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "functions": [
+    {
+      "name": "__libc_start_main",
+      "arch": "metapc-64-le",
+      "source": "manual",
+      "desc": "",
+      "match_policy": "scored",
+      "signature": {
+        "func_size": 689,
+        "bb_count": 31,
+        "edge_count": 47,
+        "call_count": 22,
+        "ret_count": 0,
+        "strict_hash": "4d9734239994569b6c6f74261b56fc0034b6b736ce25b1e4619d156af94ecbd0",
+        "raw_bytes_hash": "4d9734239994569b6c6f74261b56fc0034b6b736ce25b1e4619d156af94ecbd0",
+        "masked_bytes_hash": "f911acadc56e91af59ae2f28d7ebca0563ad3d5c49a11578401b61df995ddc75",
+        "mnemonic_norm_hash": "2df58e58d331576eafcfd5af216f8fc77c7469ac28c3e0991cb6df7649e8402c",
+        "mnemonic_bag": {
+          "endbr64": 1,
+          "push": 6,
+          "movsxd": 1,
+          "mov": 54,
+          "sub": 4,
+          "lea": 7,
+          "nop": 3,
+          "add": 6,
+          "cmp": 14,
+          "jnz": 6,
+          "call": 22,
+          "jb": 3,
+          "jmp": 4,
+          "jnb": 1,
+          "jz": 8,
+          "and": 2,
+          "test": 5,
+          "imul": 2,
+          "or": 2,
+          "syscall": 1,
+          "xor": 9,
+          "sar": 2,
+          "setnz": 1,
+          "movzx": 1
+        },
+        "imm_values": [
+          0,
+          1,
+          2,
+          3,
+          8,
+          24,
+          37,
+          56,
+          128,
+          158,
+          20481,
+          1048576,
+          4195048,
+          4195792,
+          1685382483,
+          18446744073709551615
+        ],
+        "imm_values_hash": "0ad2ac5dfc51d51d121780d524d6b88a0d3ed5a1fce3ddd3816681ef5919d54e",
+        "string_refs": [
+          "Unexpected reloc type in static binary."
+        ],
+        "string_tokens": [
+          "binary",
+          "in",
+          "reloc",
+          "static",
+          "type",
+          "unexpected"
+        ],
+        "anchor_strings": [
+          "Unexpected reloc type in static binary."
+        ],
+        "anchor_immediates": [
+          0,
+          1,
+          2,
+          3,
+          8,
+          24,
+          37,
+          56
+        ],
+        "window_hashes": [
+          "2c5fd2e87e8fb45f83319be33124c7784dafbdc8",
+          "56d6be041ffaaf1a9106f29376f2b13314c7ef09",
+          "d7235e8ac10f4260762085227a531b6e35ccbf04",
+          "c1f2d59ab501e6f478bb7856799043482875ba09",
+          "1215ece4de48e2398744b7ee2e47ee211ba5a4e8",
+          "5ab4b15086aecbf0d79efebfda6b77649f724612",
+          "6808a6ed10dd358b3f1b9875fa9ab73efbbb8662",
+          "ac502d95cb47bdf7b7c69c664407785eb965de6a",
+          "d5a09bf9bb3205cc7ba8b257cca2912fb8dfecd4",
+          "b47e87375af9ba9a9243df3f0dca0424326c92d3",
+          "269b91d2eeccf4764279584fe84aff224be5fdf0",
+          "a83bb4d0c69e0f5dc5479974a024e93b440deffe",
+          "88af5a8d35dafdcbb95c2a71383c084270697771",
+          "e9740b8fcfe5623f5da27261d74ffb2c479d0484",
+          "a110e4ad99ee3f283905f4c69c2c8ffab7ae2b46",
+          "d8543f1aba3365adcbff08d6576b580af78d7178",
+          "852d54e72ba0816c9d3d7d28349f0c5f4fdd01cd",
+          "f6687a1aacd30ad89d2484e7ae970645e512a6d6",
+          "ab07573d9468cc55fc503915d6e7edc89170a31a",
+          "5a9056ffa05eaa8bfbda653a7f1176b4a2927921",
+          "a327934f0fd4eb8a57c434b8ec363ad0c6d88db1",
+          "540d3c5671059f495f21c274652ee81553147c8a"
+        ],
+        "api_calls": [
+          ".init_proc",
+          "ds:(funcs_51F650 - 6394E8h)[r14+r15*8]",
+          "near ptr 0",
+          "qword ptr [r15+10h]",
+          "sub_401B60",
+          "sub_51D490",
+          "sub_51E4A0",
+          "sub_51F710",
+          "sub_51F8C0",
+          "sub_51FF20",
+          "sub_530D40",
+          "sub_557360",
+          "sub_5593C0",
+          "sub_55E3D0",
+          "sub_55F240",
+          "sub_55F350"
+        ]
+      },
+      "weights": {
+        "strict_hash": 100,
+        "masked_bytes_hash": 45,
+        "mnemonic_norm_hash": 28,
+        "func_size": 8,
+        "bb_count": 8,
+        "call_count": 6,
+        "imm_values": 14,
+        "string_refs": 18,
+        "anchor_strings": 24,
+        "anchor_immediates": 18,
+        "window_hashes": 16
+      },
+      "thresholds": {
+        "auto_rename": 80,
+        "candidate": 55
+      }
+    }
+  ]
+}
