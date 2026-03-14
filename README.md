@@ -148,7 +148,7 @@ candidate   : 55
 本地数据库文件：
 
 ```
-finger_local_db_v2.json
+finger_local_db.json
 ```
 
 结构示例：
@@ -187,7 +187,7 @@ finger_local_db_v2.json
 
 ```
 Finger_local_scored.py
-finger_local_db_v2.json
+finger_local_db.json
 ```
 
 到 IDA 插件目录：
